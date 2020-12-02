@@ -11,7 +11,7 @@ import utilidades.IO_ES;
  *
  * @author javie
  */
-public class Jugador extends HundirlaFlota {
+public class Jugador extends HundirLaFlota {
     
     
     /**

@@ -7,7 +7,7 @@ package principal;
 
 import arrays_CC.CadenaCaracteres;
 import arrays_CC.Arrays;
-import hundirLaFlota.HundirlaFlota;
+import hundirLaFlota.HundirLaFlota;
 import java.util.Scanner;
 import utilidades.IO_ES;
 import utilidades.ValidarCadenas;
@@ -88,7 +88,7 @@ public class MRJ_Online04 {
                           
                     case 4: 
                       
-                         HundirlaFlota.nuevaPartida();
+                         HundirLaFlota.nuevaPartida();
                          break;
                      
                           

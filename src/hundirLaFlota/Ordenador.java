@@ -8,7 +8,7 @@ package hundirLaFlota;
 import java.util.Random;
 
 
-public class Ordenador extends HundirlaFlota {
+public class Ordenador extends HundirLaFlota {
     
         
    

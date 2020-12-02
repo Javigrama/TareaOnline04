@@ -112,7 +112,8 @@ public class Arrays {
                 for(int i=0; i<array.length; i++){
                    
                     do{
-                        random=(int)((Math.random()*19)+1); //Hay que hacer un casting pues random devuelve doble y nuestro array es de int.
+                        random=(int)((Math.random()*20)+1); //Hay que hacer un casting pues random devuelve doble y nuestro array es de int.
+                        if(random==21)random=20;
                     }while(!repetido(array, random)); //mientas repetido no devuelva true es que el número ya está en el array.
                     array[i]=random;    //Si no está en el array, asignamos. Una vez asignado el array pasamos a la parte 2
                 }
